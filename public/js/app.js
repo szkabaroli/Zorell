@@ -255,7 +255,7 @@ $(document).ready(function () {
             dataType: "json",
             complete: timer = setTimeout(function () {
                 poll()
-            }, 500),
+            }, 5000),
             timeout: 2000
         });
     };
